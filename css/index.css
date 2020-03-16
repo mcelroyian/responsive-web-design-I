@@ -313,6 +313,24 @@ footer p {
         padding: 1% 5%;
     }
 
+    /* Services Page */
+
+    nav {
+        display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+	}
+	
+	nav div {
+		width: 100%;
+	}
+
+	.links {
+		justify-content: space-between;;
+	}
+	header {
+		padding-bottom: 2%;
+	}
 
 }
 
@@ -375,6 +393,11 @@ footer p {
 		margin: 5%;
 	}
 	
+	/* Services Page */
+
+	.logo a {
+		width: auto;
+	}
 
   }
 
